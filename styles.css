@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(215, 192, 157);
+    padding: 10px 20px;
+}
+
+#title{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+h2{
+    font-size: 15px;
+}
+#description{
+    font-size: 12px;
+    text-align: center;
+   
+}
+#recommand-friend{
+    /* margin:25px 0; */
+
+}
+
+#role{
+    /* margin: 25px 0; */
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+
+}
+.recommand{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.discover{
+    display: flex;
+  flex-direction: column;
+}
+.checkbox{
+    font-size: 15px;
+
+}
+#button{
+    display: flex;
+   margin: 20px auto;
+   background-color: blanchedalmond;
+   border-radius: 3px;
+   
+}
+#button a:hover{
+    background-color: rgb(65, 42, 7);
+    color: white;
+}
